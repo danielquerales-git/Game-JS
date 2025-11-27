@@ -96,7 +96,7 @@ function Attack(attacker, defender) {
   else if (attacker instanceof Trinity) powers.push("Christ", "Gun", "Biker");
   else if (attacker instanceof Morpheus) powers.push("Captain", "BluePill", "RedPill");
 
-  let chosenPowers = null;
+  let chosenPowers  ;
 
   if (powers.length > 0) {
     chosenPowers = powers[Math.floor(Math.random() * powers.length)];
