@@ -186,9 +186,7 @@ function startBattle(participants) {
     console.log(
       `\n🏆 The winner is ${alive[0].name} with ${alive[0].hp} HP remaining!`
     );
-  } else {
-    console.log("\nNo winner — battle ended with no survivors.");
-  }
+  } 
 
   console.log("\n\n=== BATTLE END ===");
 }
