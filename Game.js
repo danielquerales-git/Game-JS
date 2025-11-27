@@ -165,7 +165,6 @@ function startBattle(participants) {
         console.log(
           `\n✨ ${defender.name} has been defeated and is removed from the battle.`
         );
-        // defender will remain in array but hp<=0; we'll filter them out when checking alive count
       }
     }
 
@@ -191,7 +190,7 @@ function startBattle(participants) {
     console.log("\nNo winner — battle ended with no survivors.");
   }
 
-  console.log("=== BATTLE END ===");
+  console.log("\n\n=== BATTLE END ===");
 }
 
 // Lanzar la batalla automática
